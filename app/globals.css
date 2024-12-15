@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 :root {
+  --background: #171717;
+  --foreground: #ededed;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,10 +17,52 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes go-end {
+  from {
+    inset-inline-start: 0;
+    width: 20%;
+  }
+  to {
+    inset-inline-start: 90%;
+    width: 10%;
+  }
+}
+@keyframes go-start {
+  from {
+    inset-inline-end: 0;
+    width: 20%;
+  }
+  to {
+    inset-inline-end: 90%;
+    width: 10%;
+  }
+}
+
+.animate-line-end,
+.animate-line-start {
+  mix-blend-mode: soft-light;
+  /* height: 100%;
+  width: 10%;
+  bottom: 0px;
+  filter: blur(20px); */
+  bottom: -10px;
+  height: 2px;
+  
+}
+
+.animate-line-end {
+  animation: go-end 3s ease-in-out infinite alternate-reverse;
+  background-color: yellow;
+}
+.animate-line-start {
+  animation: go-start 3s ease-in-out infinite alternate-reverse;
+  background-color: yellowgreen;
 }
