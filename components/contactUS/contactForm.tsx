@@ -13,15 +13,14 @@ const ContactForm = () => {
     message: "",
   })
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const { name, value } = e.target
     setFormData((prevState) => ({
       ...prevState,
       [name]: value,
     }))
   }
-
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault()
     console.log("Form Submitted:", formData)
     // Add submission logic here
