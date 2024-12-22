@@ -66,3 +66,15 @@ body {
   animation: go-start 3s ease-in-out infinite alternate-reverse;
   background-color: yellowgreen;
 }
+
+
+.PhoneInputInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.PhoneInputDropdown {
+  max-height: 200px;
+  overflow-y: auto;
+}

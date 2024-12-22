@@ -26,7 +26,7 @@ const DesignWorkCard = ({
           <div className="text-sm sm:text-base text-justify py-2">
             <p>{description}</p>
           </div>
-          <p className="text-xs">CHECK OUT OUR PROJECTS</p>
+          {/* <p className="text-xs">CHECK OUT OUR PROJECTS</p> */}
         </div>
       </div>
       <div
