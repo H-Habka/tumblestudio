@@ -3,7 +3,7 @@ import React from "react"
 const Banner = () => {
   return (
     <div>
-      <div className="h-screen bg-fixed bg-cover bg-center	 bg-[url('https://i.imgur.com/9oxKcIQ.jpeg')]">
+      <div className="768:h-screen h-[70vh] 768:bg-fixed bg-cover bg-center	 bg-[url('https://i.imgur.com/9oxKcIQ.jpeg')]">
         Banner
       </div>
       <div className="flex items-center justify-center mt-10 sm:px-4">
