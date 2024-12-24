@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
+import ContactDetailsBar from "@/components/contactDetailsBar"
+import Header from "@/components/header"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,12 +28,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
-        <link rel="icon" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+        <link
+          rel="icon"
+          href="/favicon-light.png"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          rel="icon"
+          href="/favicon-dark.png"
+          media="(prefers-color-scheme: dark)"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="640:block hidden">
+          <div className="fixed z-30 top-0 left-0 w-full">
+            <ContactDetailsBar />
+          </div>
+        </div>
+        <div className="fixed 768:z-10 z-30 768:top-8 top-0 left-0 w-full">
+          <Header />
+        </div>
+        <div className="640:hidden fixed bottom-0 w-full start-0 z-10">
+          <ContactDetailsBar />
+        </div>
         {children}
       </body>
     </html>

@@ -1,17 +1,20 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const ServicesCard = ({
   imageSrc,
   title,
+  href,
 }: {
   imageSrc: string
   title: string
+  href: string
 }) => {
   return (
-    <a
+    <Link
       className="relative border border-golden group overflow-hidden"
-      href="/en/services/architect-design"
+      href={href}
     >
       <Image
         width={500}
@@ -26,7 +29,7 @@ const ServicesCard = ({
           {title}
         </h2>
       </div>
-    </a>
+    </Link>
   )
 }
 

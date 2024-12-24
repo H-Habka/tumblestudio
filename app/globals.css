@@ -55,7 +55,6 @@ body {
   filter: blur(20px); */
   bottom: -10px;
   height: 2px;
-  
 }
 
 .animate-line-end {
@@ -66,7 +65,6 @@ body {
   animation: go-start 3s ease-in-out infinite alternate-reverse;
   background-color: yellowgreen;
 }
-
 
 .PhoneInputInput {
   width: 100%;

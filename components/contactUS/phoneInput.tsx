@@ -1,20 +1,27 @@
-import { useState } from "react"
 import PhoneInput from "react-phone-number-input"
 import "react-phone-number-input/style.css"
 
-export default function PhoneNumberField() {
-  const [phoneNumber, setPhoneNumber] = useState("")
-
+export default function PhoneNumberField({
+  handleChange,
+  value,
+}: {
+  value: string
+  handleChange: (e: any) => void
+}) {
   const handlePhoneChange = (value: any) => {
-    setPhoneNumber(value)
-    console.log("Phone Number:", value) // Validated phone number
+    handleChange({
+      target: {
+        name: "phoneNumber",
+        value: value,
+      },
+    })
   }
 
   return (
     <div>
       <PhoneInput
         id="phone"
-        value={phoneNumber}
+        value={value}
         onChange={handlePhoneChange}
         defaultCountry="AE"
         placeholder="Enter phone number *"

@@ -15,7 +15,7 @@ const OurDesignWorkSection = () => {
         <DesignWorkCard
           title="Architectural Design Work"
           description="At Tumble studio , architectural design is the foundation of creating structures that are not only visually striking but also functional, sustainable, and in harmony with their surroundings. It’s the art and science of designing buildings and spaces that respond to human needs while considering the environment, culture, and innovation.
-          Unlike interior design, which focuses on enhancing internal spaces, architectural design begins with the structure itself—shaping the form, layout, and materials to ensure both strength and beauty. Tumble’s architectural designs aim to create inspiring spaces that balance aesthetics, efficiency, and purpose."
+          Tumble Studio architectural designs aim to create inspiring spaces that balance aesthetics, efficiency, and purpose."
           imageSrc="https://i.imgur.com/SSPshoz.jpg"
           reversed
         />
