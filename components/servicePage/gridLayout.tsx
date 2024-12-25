@@ -13,7 +13,9 @@ const GridLayout = ({
   const splittedText = splitTextRandomly(description, 8, 12)
   return (
     <div className="pb-10">
-      <p className="text-center text-3xl 768:text-4xl 1230:5xl mb-8 1230:sticky 1230:top-[65px] z-20 px-2 640:px-4">{title}</p>
+      <p className="text-center text-3xl 768:text-4xl 1230:5xl mb-8 1230:sticky 1230:top-[65px] z-20 px-2 640:px-4 w-fit mx-auto">
+        {title}
+      </p>
       <div className="flex justify-center px-10">
         <div className="hidden 768:block min-w-[370px] text-lg text-center  bg-opacity-50 ">
           {splittedText.map((line, index) => (

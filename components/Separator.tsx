@@ -1,8 +1,12 @@
 import React from "react"
 
-const Separator = () => {
+const Separator = ({ fullWidth }: { fullWidth?: boolean }) => {
   return (
-    <hr className="mt-10 max-w-2xl mx-auto border-0 border-b-[0.5px] border-primary-2" />
+    <hr
+      className={`${
+        fullWidth ? "w-full" : "max-w-2xl mx-auto"
+      } mt-10  border-0 border-b-[1px] border-theme-opposite-2`}
+    />
   )
 }
 

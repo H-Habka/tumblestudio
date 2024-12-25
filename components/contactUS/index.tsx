@@ -2,7 +2,7 @@ import ContactForm from "./contactForm"
 
 export default function ConsultationForm() {
   return (
-    <section id="consultation" className="border-b border-golden">
+    <section id="consultation">
       <div className="container mx-auto px-4">
         <div className="py-20 flex flex-wrap justify-between">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0">

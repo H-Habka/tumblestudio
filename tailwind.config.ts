@@ -42,12 +42,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        dark: {
-          1: "#000000",
-          2: "#171717",
-          3: "#232323",
-          4: "#333333",
+        theme: {
+          1: "var(--theme-color-1)",
+          2: "var(--theme-color-2)",
+          3: "var(--theme-color-3)",
+          4: "var(--theme-color-4)",
+          opposite : {
+            1 : "var(--theme-opposite-1)",
+            2 : "var(--theme-opposite-2)",
+            3 : "var(--theme-opposite-3)",
+            
+          }
         },
+        
         primary: {
           1: "#333333",
           2: "#e4ded0",

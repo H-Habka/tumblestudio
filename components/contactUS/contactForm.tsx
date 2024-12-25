@@ -71,7 +71,7 @@ const ContactForm = () => {
       <div className="flex flex-wrap mb-3">
         <div className="w-full lg:w-1/2 lg:px-2 mb-3 lg:mb-0">
           <input
-            className="autofill:shadow-none block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-neutral-700 focus:outline-stone-700 placeholder:text-sm text-neutral-450"
+            className="autofill:shadow-none block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-theme-opposite-1 focus:outline-theme-opposite-2 placeholder:text-sm  text-theme-opposite-3"
             type="text"
             placeholder="Full Name *"
             name="name"
@@ -90,7 +90,7 @@ const ContactForm = () => {
       <div className="flex flex-wrap mb-3">
         <div className="w-full lg:w-1/2 lg:px-2 mb-3 lg:mb-0">
           <input
-            className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-neutral-700 focus:outline-stone-700 placeholder:text-sm text-neutral-450"
+            className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-theme-opposite-1 focus:outline-theme-opposite-2 placeholder:text-sm  text-theme-opposite-3"
             type="email"
             placeholder="Contact Email *"
             name="contactEmail"
@@ -101,7 +101,7 @@ const ContactForm = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:px-2">
           <input
-            className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-neutral-700 focus:outline-stone-700 placeholder:text-sm text-neutral-450"
+            className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-theme-opposite-1 focus:outline-theme-opposite-2 placeholder:text-sm  text-theme-opposite-3"
             type="text"
             placeholder="Subject *"
             name="subject"
@@ -113,7 +113,7 @@ const ContactForm = () => {
       </div>
       <div className="lg:mx-2 mb-3">
         <textarea
-          className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-neutral-700 focus:outline-stone-700 placeholder:text-sm text-neutral-450"
+          className="block w-full py-2 px-4 text-lg border-b outline-none bg-transparent border border-theme-opposite-1 focus:outline-theme-opposite-2 placeholder:text-sm  text-theme-opposite-3"
           name="message"
           rows={5}
           placeholder="Your Message"
@@ -124,7 +124,7 @@ const ContactForm = () => {
       </div>
       <div className="lg:mx-2">
         <button
-          className="block w-full py-2 px-4 border-b outline-none resize-none bg-transparent border border-neutral-700 focus:outline-stone-700 text-sm text-neutral-450"
+          className="block w-full py-2 px-4 border-b outline-none resize-none bg-transparent border border-theme-opposite-1 focus:outline-theme-opposite-2 text-sm text-theme-opposite-3"
           type="submit"
         >
           Submit

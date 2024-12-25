@@ -7,7 +7,7 @@ import { RiWhatsappFill } from "react-icons/ri"
 
 const ContactDetailsBar = () => {
   return (
-    <div className="bg-dark-1 ">
+    <div className="bg-theme-1 ">
       <div className="flex justify-center 768:justify-between items-center text-xs py-2  2xl:container 2xl:mx-auto px-4">
         <div className=" hidden 768:flex items-center  [&>*]:border-e [&>*]:px-3 last:[&>*]:border-none">
           <div className="px-2">
@@ -23,7 +23,7 @@ const ContactDetailsBar = () => {
           </div>
           <div className="px-2">
             <a
-              href={`https://api.whatsapp.com/send?phone=${socialMedia.phone1}`}
+              href={`https://api.whatsapp.com/send?phone=${socialMedia.phone2}`}
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 group"

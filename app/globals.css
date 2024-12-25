@@ -3,21 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --background: #171717;
-  --foreground: #e4ded0;
+  --background: #e4ded0;
+  --foreground: #171717;
+  --theme-color-1: #ffffff;
+  --theme-color-2: #f1f1f1;
+  --theme-color-3: #e0e0e0;
+  --theme-color-4: #d0d0d0;
+  --theme-color-4: #d0d0d0;
+  --theme-opposite-1: #171717;
+  --theme-opposite-2: #232323;
+  --theme-opposite-3: #333333;
 }
 
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+  } */
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #171717;
+    --foreground: #e4ded0;
+    --theme-color-1: #000000;
+    --theme-color-2: #171717;
+    --theme-color-3: #232323;
+    --theme-color-4: #333333;
+    --theme-opposite-1: #e0e0e0;
+    --theme-opposite-2: #d0d0d0;
+    --theme-opposite-3: #d0d0d0;
   }
-} */
+}
 
 body {
   color: var(--foreground);
@@ -75,4 +90,23 @@ body {
 .PhoneInputDropdown {
   max-height: 200px;
   overflow-y: auto;
+}
+
+.dark-logo {
+  display: none;
+}
+.light-logo {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark-logo {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .light-logo {
+    display: block;
+  }
 }

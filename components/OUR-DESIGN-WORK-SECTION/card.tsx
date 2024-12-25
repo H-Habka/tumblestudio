@@ -13,7 +13,7 @@ const DesignWorkCard = ({
   description: string
 }) => {
   return (
-    <div className="bg-dark-3   flex flex-wrap 768:top-[220px] top-[160px]">
+    <div className="bg-theme-3   flex flex-wrap 768:top-[220px] top-[160px]">
       <div
         className={`w-full h-96 sm:h-[500px] order-1 768:w-1/2 xl:w-2/5 ${
           reversed ? "768:order-2" : "768:order-1"

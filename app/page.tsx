@@ -18,6 +18,7 @@ export default function Home() {
       <div>
         <ConsultationForm />
       </div>
+      <Separator fullWidth />
     </div>
   )
 }

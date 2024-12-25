@@ -1,6 +1,21 @@
 import GridLayout from "@/components/servicePage/gridLayout"
 import { services } from "@/constants/services"
 import React from "react"
+import type { Metadata } from "next"
+
+type Props = {
+  params: Promise<{ service: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { service } = await params
+  const selectedItem = services?.find((item) => item.serviceName === service)
+
+  return {
+    title: selectedItem?.title,
+    description: selectedItem?.description,
+  }
+}
 
 const ServicePage = async ({ params }: { params: any }) => {
   const { service } = await params
