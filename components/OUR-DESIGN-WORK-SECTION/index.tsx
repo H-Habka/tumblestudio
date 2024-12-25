@@ -4,7 +4,7 @@ import SectionWrapper from "../sectionWrapper"
 
 const OurDesignWorkSection = () => {
   return (
-    <SectionWrapper title="OUR DESIGN WORK">
+    <SectionWrapper sectionId="design_work" title="OUR DESIGN WORK">
       <div className="768:mt-[80px] mt-10 flex flex-col gap-5  2xl:container 2xl:mx-auto px-4">
         <DesignWorkCard
           title="Interior Design Work"

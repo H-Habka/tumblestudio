@@ -4,7 +4,7 @@ export default function ConsultationForm() {
   return (
     <section id="consultation">
       <div className="container mx-auto px-4">
-        <div className="py-20 flex flex-wrap justify-between">
+        <div className="pt-20 pb-10 flex flex-wrap justify-between">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0">
             <h3 className="text-3xl mb-10 font-extralight">
               FREE CONSULTATION

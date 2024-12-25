@@ -105,7 +105,26 @@ export const services = [
       "https://i.imgur.com/tOkw6yP.jpeg",
     ],
     mainImage: "https://i.imgur.com/Kgc7c00.jpeg",
-    description: `The living room serves as the heart of a home, an open and inviting space designed for lounging and socializing with family and guests. It is a place where comfort meets functionality, typically furnished with cozy sofas, stylish coffee tables, and entertainment devices such as a TV or sound system for an enjoyable experience. The décor is thoughtfully curated, with coordinated colors that enhance the sense of harmony, while carefully chosen lighting sets the perfect mood for relaxation. Decorative touches like artwork, plants, and personal accents further enrich the space, infusing it with character and warmth. Together, these elements create an atmosphere of tranquility, making the living room a serene haven for both unwinding and connecting with loved ones.
-`,
+    description: `The living room serves as the heart of a home, an open and inviting space designed for lounging and socializing with family and guests. It is a place where comfort meets functionality, typically furnished with cozy sofas, stylish coffee tables, and entertainment devices such as a TV or sound system for an enjoyable experience. The décor is thoughtfully curated, with coordinated colors that enhance the sense of harmony, while carefully chosen lighting sets the perfect mood for relaxation. Decorative touches like artwork, plants, and personal accents further enrich the space, infusing it with character and warmth. Together, these elements create an atmosphere of tranquility, making the living room a serene haven for both unwinding and connecting with loved ones.`,
+  },
+  {
+    title: "Men's Majlis With Living Room Design",
+    serviceName: "mens_majlis_with_living_room_design",
+    images: [
+      "https://i.imgur.com/tCb1EWH.jpeg",
+      "https://i.imgur.com/xcF0zIL.jpeg",
+      "https://i.imgur.com/hcYIe1d.jpeg",
+      "https://i.imgur.com/QuYcbCm.jpeg",
+      "https://i.imgur.com/S6Ury00.jpeg",
+      "https://i.imgur.com/178QeEI.jpeg",
+      "https://i.imgur.com/yZaJPys.jpeg",
+      "https://i.imgur.com/bJFFJxi.jpeg",
+      "https://i.imgur.com/tCBjaPv.jpeg",
+      "https://i.imgur.com/biFe3mb.jpeg",
+      "https://i.imgur.com/TeVU6R5.jpeg",
+    ],
+    mainImage: "https://i.imgur.com/TeVU6R5.jpeg",
+    description: `The project features a men’s majlis designed with both elegance and functionality at its core, creating a space that is not only visually striking but also incredibly practical. The layout showcases a spacious seating area, perfect for hosting guests and encouraging social interaction, while maintaining a refined and welcoming atmosphere that fosters a sense of warmth and hospitality. Every aspect of the design has been carefully considered, from the harmonious arrangement of luxurious furniture to the carefully selected color palette, which incorporates warm tones that enhance the space’s inviting appeal.
+    The use of high-end materials throughout the majlis elevates the overall ambiance, giving the room an air of sophistication and timelessness. The lighting design is particularly noteworthy, as it plays a pivotal role in accentuating the majlis’s features, casting a soft, ambient glow that highlights the elegant furnishings and architectural details. Additionally, the overall layout is strategically designed to offer maximum comfort while encouraging seamless interaction, making the space not only aesthetically pleasing but also highly functional. This perfect balance between practicality and visual appeal ensures that the majlis serves as a space where guests can gather, relax, and enjoy the sense of luxury and comfort it provides.`,
   },
 ]
