@@ -127,4 +127,36 @@ export const services = [
     description: `The project features a men’s majlis designed with both elegance and functionality at its core, creating a space that is not only visually striking but also incredibly practical. The layout showcases a spacious seating area, perfect for hosting guests and encouraging social interaction, while maintaining a refined and welcoming atmosphere that fosters a sense of warmth and hospitality. Every aspect of the design has been carefully considered, from the harmonious arrangement of luxurious furniture to the carefully selected color palette, which incorporates warm tones that enhance the space’s inviting appeal.
     The use of high-end materials throughout the majlis elevates the overall ambiance, giving the room an air of sophistication and timelessness. The lighting design is particularly noteworthy, as it plays a pivotal role in accentuating the majlis’s features, casting a soft, ambient glow that highlights the elegant furnishings and architectural details. Additionally, the overall layout is strategically designed to offer maximum comfort while encouraging seamless interaction, making the space not only aesthetically pleasing but also highly functional. This perfect balance between practicality and visual appeal ensures that the majlis serves as a space where guests can gather, relax, and enjoy the sense of luxury and comfort it provides.`,
   },
+  {
+    title: "Neo Classic Villa",
+    serviceName: "neo_classic_villa",
+    images: [
+      "https://i.imgur.com/Xl3NbjI.jpeg",
+      "https://i.imgur.com/340rRvo.jpeg",
+      "https://i.imgur.com/OWgBxfJ.jpeg",
+      "https://i.imgur.com/Oyg7QZl.jpeg",
+      "https://i.imgur.com/CIk1QC3.jpeg",
+      "https://i.imgur.com/fF82o4v.jpeg",
+    ],
+    mainImage: "https://i.imgur.com/Oyg7QZl.jpeg",
+    description: `The design of a Neo-Classical villa façade seamlessly merges timeless elegance with refined modernity. Its hallmark features include stately columns and arches that evoke classical grandeur, complemented by expansive windows adorned with decorative frames. The color palette, often consisting of soft hues like white, beige, or gray, imbues the façade with a sense of tranquility and sophistication.
+    Traditional materials such as natural stone or marble form the architectural backbone, offering a sense of permanence and luxury. These are enhanced with subtle modern elements, like concealed lighting that emphasizes the villa’s contours and glass accents that lend a contemporary touch. The grand entrance is often adorned with intricately designed doors, featuring geometric patterns and wrought iron detailing that add a bespoke feel to the structure.
+    The façade's elegance is further amplified by thoughtful lighting arrangements, creating a warm and inviting glow that highlights its architectural nuances after sunset. Surrounding landscaping, often with manicured greenery and pathways, harmonizes with the villa's aesthetic, making it an emblem of understated luxury and timeless design.`,
+  },
+  {
+    title: "Modern Villa Design",
+    serviceName: "modern_villa_design",
+    images: [
+      "https://i.imgur.com/0CeP140.jpeg",
+      "https://i.imgur.com/rV3P8xz.jpeg",
+      "https://i.imgur.com/pNJJXWM.jpeg",
+      "https://i.imgur.com/4ZrjllD.jpeg",
+      "https://i.imgur.com/jEYqfnh.jpeg",
+      "https://i.imgur.com/SWyyZoY.jpeg",
+      "https://i.imgur.com/jtFyI9O.jpeg",
+      "https://i.imgur.com/MtoZGmG.jpeg",
+    ],
+    mainImage: "https://i.imgur.com/0CeP140.jpeg",
+    description: `A modern villa with an elegant and minimalist design, featuring clean lines, open spaces, and expansive glass facades that seamlessly merge indoor and outdoor living. The neutral color palette, dominated by whites and soft greys, is complemented by refined materials like natural wood and polished concrete, adding warmth and texture. The villa is surrounded by a lush garden, with a luxurious swimming pool as its centerpiece, accompanied by a stylish deck for relaxation. Thoughtful landscaping and subtle lighting enhance the serene ambiance, creating a perfect blend of simplicity and sophistication.`,
+  },
 ]

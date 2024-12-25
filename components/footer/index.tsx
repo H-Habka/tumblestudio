@@ -20,7 +20,7 @@ const links: {
 
 const Footer = () => {
   return (
-    <div className="mt-20 768:mt-[120px] flex items-center justify-center flex-col">
+    <div className="mt-20 768:mt-[100px] flex items-center justify-center flex-col">
       <div className="flex gap-8">
         {links?.map((item) => {
           return (
