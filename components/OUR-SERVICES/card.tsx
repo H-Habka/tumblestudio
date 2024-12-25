@@ -13,14 +13,14 @@ const ServicesCard = ({
 }) => {
   return (
     <Link
-      className="relative border border-golden group overflow-hidden"
+      className="relative border border-theme-opposite-1 group overflow-hidden aspect-square"
       href={href}
     >
       <Image
-        width={500}
-        height={500}
-        alt="service"
-        className="w-full h-72 object-cover transition ease-out duration-500 brightness-50 group-hover:brightness-100"
+        width={1000}
+        height={1000}
+        alt={title}
+        className="w-full h-full object-cover transition ease-out duration-500 brightness-50 group-hover:brightness-100"
         src={imageSrc}
       />
       <div className="absolute bg-theme-1 inset-0 transition ease-out duration-500 opacity-20 group-hover:opacity-0 group-hover:bg-transparent"></div>
