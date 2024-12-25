@@ -1,5 +1,11 @@
-import PhoneInput from "react-phone-number-input"
+"use client"
+
+import dynamic from "next/dynamic"
 import "react-phone-number-input/style.css"
+
+const PhoneInput = dynamic(() => import("react-phone-number-input"), {
+  ssr: false,
+})
 
 export default function PhoneNumberField({
   handleChange,

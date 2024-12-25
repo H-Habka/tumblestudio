@@ -73,7 +73,7 @@ const ContactDetailsBar = () => {
               <RiWhatsappFill className="transition-all duration-150" />
             </a>
             <a
-              href={`https://api.whatsapp.com/send?phone=${socialMedia.phone1}`}
+              href={`https://api.whatsapp.com/send?phone=${socialMedia.phone2}`}
               target="_blank"
               rel="noreferrer"
               className="flex items-center "
