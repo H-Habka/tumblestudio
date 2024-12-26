@@ -20,7 +20,7 @@ const links: {
 
 const Footer = () => {
   return (
-    <div className="mt-20 768:mt-[100px] flex items-center justify-center flex-col">
+    <footer className="mt-20 768:mt-[100px] flex items-center justify-center flex-col">
       <div className="flex gap-8">
         {links?.map((item) => {
           return (
@@ -34,10 +34,18 @@ const Footer = () => {
           )
         })}
       </div>
-      <p className="text-center text-sm font-extralight mt-6 mb-4">
+      {/* <p className="text-center text-sm font-extralight mt-6 mb-4">
         &copy; {new Date().getFullYear()} Tumble Studio. All rights reserved.
-      </p>
-    </div>
+      </p> */}
+      <div className="mt-3 text-center cursor-default mb-4">
+        <ul className="flex flex-wrap justify-center mt-2 space-x-4 text-xs [&>li:hover]:underline">
+          <li>Abu Dhabi</li>
+          <li>Dubai</li>
+          <li>Sharjah</li>
+          <li>Al Ain</li>
+        </ul>
+      </div>
+    </footer>
   )
 }
 

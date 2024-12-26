@@ -1,6 +1,16 @@
-export const services = [
+type servicesT = {
+  title: string
+  serviceType: "landscape" | "interior" | "architectural"
+  serviceName: string
+  images: string[]
+  mainImage: string
+  description: string
+}
+
+export const services: servicesT[] = [
   {
     title: "Landscape Garden Design",
+    serviceType: "landscape",
     serviceName: "landscape_garden_design1",
     images: [
       "https://i.imgur.com/vSr03Ij.jpeg",
@@ -33,6 +43,7 @@ export const services = [
   },
   {
     title: "Landscape Garden Design",
+    serviceType: "landscape",
     serviceName: "landscape_garden_design2",
     images: [
       "https://i.imgur.com/AoPBWzt.jpeg",
@@ -58,6 +69,7 @@ export const services = [
   },
   {
     title: "Modern Men Majlis Design",
+    serviceType: "interior",
     serviceName: "modern_men_majlis_design",
     images: [
       "https://i.imgur.com/w0GbMpu.jpeg",
@@ -74,6 +86,7 @@ export const services = [
   },
   {
     title: "Modern Living & Dining Room Design",
+    serviceType: "interior",
     serviceName: "modern_living_and_dining_room_design",
     images: [
       "https://i.imgur.com/IpTDFui.jpeg",
@@ -95,6 +108,7 @@ export const services = [
   },
   {
     title: "Neo Classic Living Room Design",
+    serviceType: "interior",
     serviceName: "neo_classic_living_room_design",
     images: [
       "https://i.imgur.com/0zUnTLp.jpeg",
@@ -109,6 +123,7 @@ export const services = [
   },
   {
     title: "Men's Majlis With Living Room Design",
+    serviceType: "interior",
     serviceName: "mens_majlis_with_living_room_design",
     images: [
       "https://i.imgur.com/tCb1EWH.jpeg",
@@ -130,6 +145,7 @@ export const services = [
   {
     title: "Neo Classic Villa",
     serviceName: "neo_classic_villa",
+    serviceType: "architectural",
     images: [
       "https://i.imgur.com/Xl3NbjI.jpeg",
       "https://i.imgur.com/340rRvo.jpeg",
@@ -145,6 +161,7 @@ export const services = [
   },
   {
     title: "Modern Villa Design",
+    serviceType: "architectural",
     serviceName: "modern_villa_design",
     images: [
       "https://i.imgur.com/0CeP140.jpeg",
