@@ -176,4 +176,25 @@ export const services: servicesT[] = [
     mainImage: "https://i.imgur.com/0CeP140.jpeg",
     description: `A modern villa with an elegant and minimalist design, featuring clean lines, open spaces, and expansive glass facades that seamlessly merge indoor and outdoor living. The neutral color palette, dominated by whites and soft greys, is complemented by refined materials like natural wood and polished concrete, adding warmth and texture. The villa is surrounded by a lush garden, with a luxurious swimming pool as its centerpiece, accompanied by a stylish deck for relaxation. Thoughtful landscaping and subtle lighting enhance the serene ambiance, creating a perfect blend of simplicity and sophistication.`,
   },
+  {
+    title: "Coffee shop design",
+    serviceType: "interior",
+    serviceName: "coffee_shop_design",
+    images: [
+      "https://i.imgur.com/C6yuD71.jpeg",
+      "https://i.imgur.com/7QCMCkk.jpeg",
+      "https://i.imgur.com/yIgnhcJ.jpeg",
+      "https://i.imgur.com/4RRk2FX.jpeg",
+      "https://i.imgur.com/RsNww7A.jpeg",
+      "https://i.imgur.com/gtC0xZS.jpeg",
+      "https://i.imgur.com/UjwGorR.jpeg",
+      "https://i.imgur.com/p14Dt1C.jpeg",
+      "https://i.imgur.com/TiFZ5YQ.jpeg",
+      "https://i.imgur.com/zIc7PyV.jpeg",
+      "https://i.imgur.com/wjkX87z.jpeg",
+    ],
+    mainImage: "https://i.imgur.com/7QCMCkk.jpeg",
+    description: `The coffee shop design emphasizes a warm and comfortable atmosphere, enhanced by practical furniture and soft lighting that invites relaxation. Neutral tones, predominantly beige, are complemented by subtle accents inspired by coffee, creating a cohesive and serene aesthetic. Simple decor, including coffee-themed elements and greenery, adds a natural touch that enhances the inviting environment.
+    The thoughtful layout prioritizes privacy and convenience, allowing for effortless movement and a sense of openness. The space caters to both solo visitors seeking a quiet retreat and groups looking for a cozy spot to gather, ensuring an experience that feels both personal and welcoming.`,
+  },
 ]
