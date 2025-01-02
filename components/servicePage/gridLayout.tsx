@@ -29,7 +29,7 @@ const GridLayout = ({
         </div>
       </div>
       <div className="mt-10 2xl:container 2xl:mx-auto px-4 grid grid-cols-1 640:grid-cols-3 gap-4 [&>*]:rounded-xl 640:[&>img:nth-child(2n)]:row-span-2 640:[&>img:nth-child(2n)]:col-span-2 640:[&>img:nth-child(6n)]:row-span-1 640:[&>img:nth-child(6n)]:col-span-1 ">
-        {imagesArray.map((item: any) => {
+        {imagesArray?.map((item: any) => {
           return (
             <Image
               className="w-full h-full"

@@ -24,7 +24,6 @@ const ServicePage = async ({ params }: { params: any }) => {
 
   return (
     <div className="z-1 pt-[100px] 768:pt-[160px]">
-      <div className="fixed start-0 top-0 z-[-1] h-screen w-screen bg-[url('/bg.jpg')] opacity-5"></div>
       <GridLayout
         description={selectedItem?.description || ""}
         imagesArray={selectedItem?.images}
@@ -35,3 +34,7 @@ const ServicePage = async ({ params }: { params: any }) => {
 }
 
 export default ServicePage
+
+{
+  /* <div className="fixed start-0 top-0 z-[-1] h-screen w-screen bg-[url('/bg.jpg')] opacity-5"></div> */
+}

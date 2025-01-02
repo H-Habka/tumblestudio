@@ -32,8 +32,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased z-1`}
       >
+        <div className="bg-[url('/bg2.jpg')] bg-opacity-20 z-[-1] fixed w-screen h-screen top-0 start-0 opacity-20"></div>
         <div className="640:block hidden">
           <div className="fixed z-30 top-0 left-0 w-full">
             <ContactDetailsBar />
